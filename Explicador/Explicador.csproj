@@ -63,6 +63,7 @@
     <Compile Include="Cadastrar.Designer.cs">
       <DependentUpon>Cadastrar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="EcraPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -23,8 +23,7 @@ namespace Explicador
 			Close();
 			Application.Exit();
 		}
-		SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\mauro\Documents\Explicadordb.mdf;Integrated Security=True;Connect Timeout=30");
-
+		
 		private void loginBt_Click(object sender, EventArgs e)
 		{
 			Cadastrar Mform = new Cadastrar();

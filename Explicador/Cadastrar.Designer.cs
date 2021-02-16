@@ -29,7 +29,6 @@ namespace Explicador
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.txtNome = new Bunifu.Framework.UI.BunifuMaterialTextbox();
 			this.txtEscola = new Bunifu.Framework.UI.BunifuMaterialTextbox();
 			this.txtApelido = new Bunifu.Framework.UI.BunifuMaterialTextbox();
 			this.dateTimeNascimento = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -38,28 +37,8 @@ namespace Explicador
 			this.loginBt = new System.Windows.Forms.Button();
 			this.saltarBt = new System.Windows.Forms.Button();
 			this.exit = new System.Windows.Forms.Label();
+			this.txtNome = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
-			// 
-			// txtNome
-			// 
-			this.txtNome.BackColor = System.Drawing.SystemColors.MenuHighlight;
-			this.txtNome.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.txtNome.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-			this.txtNome.ForeColor = System.Drawing.Color.White;
-			this.txtNome.HintForeColor = System.Drawing.Color.White;
-			this.txtNome.HintText = "";
-			this.txtNome.isPassword = false;
-			this.txtNome.LineFocusedColor = System.Drawing.Color.Blue;
-			this.txtNome.LineIdleColor = System.Drawing.Color.Black;
-			this.txtNome.LineMouseHoverColor = System.Drawing.Color.Blue;
-			this.txtNome.LineThickness = 3;
-			this.txtNome.Location = new System.Drawing.Point(76, 33);
-			this.txtNome.Margin = new System.Windows.Forms.Padding(4);
-			this.txtNome.Name = "txtNome";
-			this.txtNome.Size = new System.Drawing.Size(235, 33);
-			this.txtNome.TabIndex = 4;
-			this.txtNome.Text = "Nome (Obrigatório)";
-			this.txtNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			// 
 			// txtEscola
 			// 
@@ -218,12 +197,20 @@ namespace Explicador
 			this.exit.Text = "X";
 			this.exit.Click += new System.EventHandler(this.exit_Click);
 			// 
+			// txtNome
+			// 
+			this.txtNome.Location = new System.Drawing.Point(80, 31);
+			this.txtNome.Name = "txtNome";
+			this.txtNome.Size = new System.Drawing.Size(220, 20);
+			this.txtNome.TabIndex = 17;
+			// 
 			// Cadastrar
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.MenuHighlight;
 			this.ClientSize = new System.Drawing.Size(417, 385);
+			this.Controls.Add(this.txtNome);
 			this.Controls.Add(this.exit);
 			this.Controls.Add(this.saltarBt);
 			this.Controls.Add(this.loginBt);
@@ -232,7 +219,6 @@ namespace Explicador
 			this.Controls.Add(this.dateTimeNascimento);
 			this.Controls.Add(this.txtApelido);
 			this.Controls.Add(this.txtEscola);
-			this.Controls.Add(this.txtNome);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "Cadastrar";
 			this.Text = "Cadastrar";
@@ -242,7 +228,6 @@ namespace Explicador
 		}
 
 		#endregion
-		private Bunifu.Framework.UI.BunifuMaterialTextbox txtNome;
 		private Bunifu.Framework.UI.BunifuMaterialTextbox txtEscola;
 		private Bunifu.Framework.UI.BunifuMaterialTextbox txtApelido;
 		private Guna.UI2.WinForms.Guna2DateTimePicker dateTimeNascimento;
@@ -251,5 +236,6 @@ namespace Explicador
 		private System.Windows.Forms.Button loginBt;
 		private System.Windows.Forms.Button saltarBt;
 		private System.Windows.Forms.Label exit;
+		private System.Windows.Forms.TextBox txtNome;
 	}
 }
