@@ -35,7 +35,9 @@ namespace Explicador
 			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
 			this.lbVoltar = new System.Windows.Forms.Label();
 			this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-			this.label2 = new System.Windows.Forms.Label();
+			this.materiasLB = new System.Windows.Forms.Label();
+			this.txtConteudo = new System.Windows.Forms.TextBox();
+			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
 			this.splitContainer1.Panel1.SuspendLayout();
@@ -49,6 +51,7 @@ namespace Explicador
 			// groupBox1
 			// 
 			this.groupBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+			this.groupBox1.Controls.Add(this.txtConteudo);
 			this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			resources.ApplyResources(this.groupBox1, "groupBox1");
 			this.groupBox1.Name = "groupBox1";
@@ -77,6 +80,8 @@ namespace Explicador
 			// lbVoltar
 			// 
 			resources.ApplyResources(this.lbVoltar, "lbVoltar");
+			this.lbVoltar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.lbVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.lbVoltar.Name = "lbVoltar";
 			this.lbVoltar.Click += new System.EventHandler(this.lbVoltar_Click);
 			// 
@@ -87,12 +92,19 @@ namespace Explicador
 			// 
 			// splitContainer2.Panel1
 			// 
-			this.splitContainer2.Panel1.Controls.Add(this.label2);
+			this.splitContainer2.Panel1.Controls.Add(this.materiasLB);
 			// 
-			// label2
+			// materiasLB
 			// 
-			resources.ApplyResources(this.label2, "label2");
-			this.label2.Name = "label2";
+			resources.ApplyResources(this.materiasLB, "materiasLB");
+			this.materiasLB.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.materiasLB.Name = "materiasLB";
+			this.materiasLB.Click += new System.EventHandler(this.materiasLB_Click);
+			// 
+			// txtConteudo
+			// 
+			resources.ApplyResources(this.txtConteudo, "txtConteudo");
+			this.txtConteudo.Name = "txtConteudo";
 			// 
 			// ecraPrincipal
 			// 
@@ -106,6 +118,9 @@ namespace Explicador
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
 			this.HelpButton = true;
 			this.Name = "ecraPrincipal";
+			this.Load += new System.EventHandler(this.ecraPrincipal_Load);
+			this.groupBox1.ResumeLayout(false);
+			this.groupBox1.PerformLayout();
 			this.groupBox2.ResumeLayout(false);
 			this.splitContainer1.Panel1.ResumeLayout(false);
 			this.splitContainer1.Panel1.PerformLayout();
@@ -127,6 +142,7 @@ namespace Explicador
 		private System.Windows.Forms.SplitContainer splitContainer1;
 		private System.Windows.Forms.Label lbVoltar;
 		private System.Windows.Forms.SplitContainer splitContainer2;
-		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label materiasLB;
+		private System.Windows.Forms.TextBox txtConteudo;
 	}
 }

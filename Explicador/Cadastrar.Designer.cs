@@ -37,7 +37,7 @@ namespace Explicador
 			this.loginBt = new System.Windows.Forms.Button();
 			this.saltarBt = new System.Windows.Forms.Button();
 			this.exit = new System.Windows.Forms.Label();
-			this.txtNome = new System.Windows.Forms.TextBox();
+			this.txtNome = new Bunifu.Framework.UI.BunifuMaterialTextbox();
 			this.SuspendLayout();
 			// 
 			// txtEscola
@@ -199,10 +199,24 @@ namespace Explicador
 			// 
 			// txtNome
 			// 
-			this.txtNome.Location = new System.Drawing.Point(80, 31);
+			this.txtNome.BackColor = System.Drawing.SystemColors.MenuHighlight;
+			this.txtNome.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.txtNome.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+			this.txtNome.ForeColor = System.Drawing.Color.White;
+			this.txtNome.HintForeColor = System.Drawing.Color.White;
+			this.txtNome.HintText = "";
+			this.txtNome.isPassword = false;
+			this.txtNome.LineFocusedColor = System.Drawing.Color.Blue;
+			this.txtNome.LineIdleColor = System.Drawing.Color.Black;
+			this.txtNome.LineMouseHoverColor = System.Drawing.Color.Blue;
+			this.txtNome.LineThickness = 3;
+			this.txtNome.Location = new System.Drawing.Point(80, 33);
+			this.txtNome.Margin = new System.Windows.Forms.Padding(4);
 			this.txtNome.Name = "txtNome";
-			this.txtNome.Size = new System.Drawing.Size(220, 20);
+			this.txtNome.Size = new System.Drawing.Size(235, 33);
 			this.txtNome.TabIndex = 17;
+			this.txtNome.Text = "Nome (obrigatório)";
+			this.txtNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			// 
 			// Cadastrar
 			// 
@@ -236,6 +250,6 @@ namespace Explicador
 		private System.Windows.Forms.Button loginBt;
 		private System.Windows.Forms.Button saltarBt;
 		private System.Windows.Forms.Label exit;
-		private System.Windows.Forms.TextBox txtNome;
+		private Bunifu.Framework.UI.BunifuMaterialTextbox txtNome;
 	}
 }

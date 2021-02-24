@@ -94,7 +94,7 @@ namespace Explicador
 			try
 			{
 				conexao.Open();
-				string sqlInsert = "insert into usuario(nomedousuario) values(?)";
+				string sqlInsert = "insert into usuario(nomedousuario, classe, disciplinafav, escola, dataDeNascimento) values(?,?,?,?,?)";
 				comando = new OleDbCommand(sqlInsert, conexao); 
 				
 				comando.Parameters.Add(new OleDbParameter("nomedousuario", txtNome.Text));       

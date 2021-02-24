@@ -16,7 +16,9 @@ namespace Explicador
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Cadastrar());
+			Application.Run(new ecraPrincipal());
+
+			Application.Exit();
 
 		}
 	}
