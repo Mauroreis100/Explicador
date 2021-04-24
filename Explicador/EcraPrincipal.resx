@@ -117,11 +117,131 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="cbClasse.Items" xml:space="preserve">
+    <value>1ª Classe</value>
+  </data>
+  <data name="cbClasse.Items1" xml:space="preserve">
+    <value>2ª Classe</value>
+  </data>
+  <data name="cbClasse.Items2" xml:space="preserve">
+    <value>3ª Classe</value>
+  </data>
+  <data name="cbClasse.Items3" xml:space="preserve">
+    <value>4ª Classe</value>
+  </data>
+  <data name="cbClasse.Items4" xml:space="preserve">
+    <value>5ª Classe</value>
+  </data>
+  <data name="cbClasse.Items5" xml:space="preserve">
+    <value>6ª Classe</value>
+  </data>
+  <data name="cbClasse.Items6" xml:space="preserve">
+    <value>7ª Classe</value>
+  </data>
+  <data name="cbClasse.Items7" xml:space="preserve">
+    <value>8ª Classe</value>
+  </data>
+  <data name="cbClasse.Items8" xml:space="preserve">
+    <value>9ª Classe</value>
+  </data>
+  <data name="cbClasse.Items9" xml:space="preserve">
+    <value>10ª Classe</value>
+  </data>
+  <data name="cbClasse.Items10" xml:space="preserve">
+    <value>11ª Classe</value>
+  </data>
+  <data name="cbClasse.Items11" xml:space="preserve">
+    <value>12ª Classe</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="txtConteudo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 61</value>
+  <data name="cbClasse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 29</value>
+  </data>
+  <data name="cbClasse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 21</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbClasse.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbClasse.Text" xml:space="preserve">
+    <value>Classe</value>
+  </data>
+  <data name="&gt;&gt;cbClasse.Name" xml:space="preserve">
+    <value>cbClasse</value>
+  </data>
+  <data name="&gt;&gt;cbClasse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbClasse.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbClasse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="searchBT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 27</value>
+  </data>
+  <data name="searchBT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 23</value>
+  </data>
+  <data name="searchBT.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="searchBT.Text" xml:space="preserve">
+    <value>ESTUDAR MATERIA</value>
+  </data>
+  <data name="&gt;&gt;searchBT.Name" xml:space="preserve">
+    <value>searchBT</value>
+  </data>
+  <data name="&gt;&gt;searchBT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchBT.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;searchBT.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="disciplina.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="disciplina.Items1" xml:space="preserve">
+    <value>Estat</value>
+  </data>
+  <data name="disciplina.Items2" xml:space="preserve">
+    <value>Carros dos Estudantes</value>
+  </data>
+  <data name="disciplina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 29</value>
+  </data>
+  <data name="disciplina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 21</value>
+  </data>
+  <data name="disciplina.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="disciplina.Text" xml:space="preserve">
+    <value>Matéria</value>
+  </data>
+  <data name="&gt;&gt;disciplina.Name" xml:space="preserve">
+    <value>disciplina</value>
+  </data>
+  <data name="&gt;&gt;disciplina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disciplina.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;disciplina.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtConteudo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="txtConteudo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 69</value>
+  </data>
   <data name="txtConteudo.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -145,7 +265,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;txtConteudo.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>202, -12</value>
@@ -184,7 +304,7 @@
     <value>True</value>
   </data>
   <data name="lbVoltar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 19</value>
+    <value>58, 17</value>
   </data>
   <data name="lbVoltar.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 19</value>
@@ -235,16 +355,16 @@
     <value>NoControl</value>
   </data>
   <data name="materiasLB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>60, 19</value>
+    <value>18, 27</value>
   </data>
   <data name="materiasLB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 17</value>
+    <value>157, 17</value>
   </data>
   <data name="materiasLB.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="materiasLB.Text" xml:space="preserve">
-    <value>Matérias</value>
+    <value>ABRIR FICHEIROS DE TEXTO</value>
   </data>
   <data name="&gt;&gt;materiasLB.Name" xml:space="preserve">
     <value>materiasLB</value>
@@ -268,6 +388,87 @@
     <value>splitContainer2</value>
   </data>
   <data name="&gt;&gt;splitContainer2.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitContainer3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainer3.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="materiaNova.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materiaNova.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 23</value>
+  </data>
+  <data name="materiaNova.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="materiaNova.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="materiaNova.Text" xml:space="preserve">
+    <value>Criar Materia</value>
+  </data>
+  <data name="&gt;&gt;materiaNova.Name" xml:space="preserve">
+    <value>materiaNova</value>
+  </data>
+  <data name="&gt;&gt;materiaNova.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;materiaNova.Parent" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;materiaNova.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.Name" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.Name" xml:space="preserve">
+    <value>splitContainer3.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 295</value>
+  </data>
+  <data name="splitContainer3.SplitterDistance" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="splitContainer3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Name" xml:space="preserve">
+    <value>splitContainer3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;splitContainer2.Panel2.Name" xml:space="preserve">

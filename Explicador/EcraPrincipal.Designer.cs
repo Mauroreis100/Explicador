@@ -31,12 +31,17 @@ namespace Explicador
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ecraPrincipal));
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.cbClasse = new System.Windows.Forms.ComboBox();
+			this.searchBT = new System.Windows.Forms.Button();
+			this.disciplina = new System.Windows.Forms.ComboBox();
+			this.txtConteudo = new System.Windows.Forms.TextBox();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
 			this.lbVoltar = new System.Windows.Forms.Label();
 			this.splitContainer2 = new System.Windows.Forms.SplitContainer();
 			this.materiasLB = new System.Windows.Forms.Label();
-			this.txtConteudo = new System.Windows.Forms.TextBox();
+			this.splitContainer3 = new System.Windows.Forms.SplitContainer();
+			this.materiaNova = new System.Windows.Forms.Label();
 			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -45,17 +50,69 @@ namespace Explicador
 			this.splitContainer1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
 			this.splitContainer2.Panel1.SuspendLayout();
+			this.splitContainer2.Panel2.SuspendLayout();
 			this.splitContainer2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
+			this.splitContainer3.Panel1.SuspendLayout();
+			this.splitContainer3.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// groupBox1
 			// 
 			this.groupBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+			this.groupBox1.Controls.Add(this.cbClasse);
+			this.groupBox1.Controls.Add(this.searchBT);
+			this.groupBox1.Controls.Add(this.disciplina);
 			this.groupBox1.Controls.Add(this.txtConteudo);
 			this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			resources.ApplyResources(this.groupBox1, "groupBox1");
 			this.groupBox1.Name = "groupBox1";
 			this.groupBox1.TabStop = false;
+			// 
+			// cbClasse
+			// 
+			this.cbClasse.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+			this.cbClasse.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+			this.cbClasse.FormattingEnabled = true;
+			this.cbClasse.Items.AddRange(new object[] {
+            resources.GetString("cbClasse.Items"),
+            resources.GetString("cbClasse.Items1"),
+            resources.GetString("cbClasse.Items2"),
+            resources.GetString("cbClasse.Items3"),
+            resources.GetString("cbClasse.Items4"),
+            resources.GetString("cbClasse.Items5"),
+            resources.GetString("cbClasse.Items6"),
+            resources.GetString("cbClasse.Items7"),
+            resources.GetString("cbClasse.Items8"),
+            resources.GetString("cbClasse.Items9"),
+            resources.GetString("cbClasse.Items10"),
+            resources.GetString("cbClasse.Items11")});
+			resources.ApplyResources(this.cbClasse, "cbClasse");
+			this.cbClasse.Name = "cbClasse";
+			// 
+			// searchBT
+			// 
+			resources.ApplyResources(this.searchBT, "searchBT");
+			this.searchBT.Name = "searchBT";
+			this.searchBT.UseVisualStyleBackColor = true;
+			this.searchBT.Click += new System.EventHandler(this.searchBT_Click);
+			// 
+			// disciplina
+			// 
+			this.disciplina.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+			this.disciplina.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+			this.disciplina.FormattingEnabled = true;
+			this.disciplina.Items.AddRange(new object[] {
+            resources.GetString("disciplina.Items"),
+            resources.GetString("disciplina.Items1"),
+            resources.GetString("disciplina.Items2")});
+			resources.ApplyResources(this.disciplina, "disciplina");
+			this.disciplina.Name = "disciplina";
+			// 
+			// txtConteudo
+			// 
+			resources.ApplyResources(this.txtConteudo, "txtConteudo");
+			this.txtConteudo.Name = "txtConteudo";
 			// 
 			// groupBox2
 			// 
@@ -94,6 +151,10 @@ namespace Explicador
 			// 
 			this.splitContainer2.Panel1.Controls.Add(this.materiasLB);
 			// 
+			// splitContainer2.Panel2
+			// 
+			this.splitContainer2.Panel2.Controls.Add(this.splitContainer3);
+			// 
 			// materiasLB
 			// 
 			resources.ApplyResources(this.materiasLB, "materiasLB");
@@ -101,10 +162,20 @@ namespace Explicador
 			this.materiasLB.Name = "materiasLB";
 			this.materiasLB.Click += new System.EventHandler(this.materiasLB_Click);
 			// 
-			// txtConteudo
+			// splitContainer3
 			// 
-			resources.ApplyResources(this.txtConteudo, "txtConteudo");
-			this.txtConteudo.Name = "txtConteudo";
+			resources.ApplyResources(this.splitContainer3, "splitContainer3");
+			this.splitContainer3.Name = "splitContainer3";
+			// 
+			// splitContainer3.Panel1
+			// 
+			this.splitContainer3.Panel1.Controls.Add(this.materiaNova);
+			// 
+			// materiaNova
+			// 
+			resources.ApplyResources(this.materiaNova, "materiaNova");
+			this.materiaNova.Name = "materiaNova";
+			this.materiaNova.Click += new System.EventHandler(this.materiaNova_Click);
 			// 
 			// ecraPrincipal
 			// 
@@ -129,8 +200,13 @@ namespace Explicador
 			this.splitContainer1.ResumeLayout(false);
 			this.splitContainer2.Panel1.ResumeLayout(false);
 			this.splitContainer2.Panel1.PerformLayout();
+			this.splitContainer2.Panel2.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
 			this.splitContainer2.ResumeLayout(false);
+			this.splitContainer3.Panel1.ResumeLayout(false);
+			this.splitContainer3.Panel1.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
+			this.splitContainer3.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 		}
@@ -144,5 +220,10 @@ namespace Explicador
 		private System.Windows.Forms.SplitContainer splitContainer2;
 		private System.Windows.Forms.Label materiasLB;
 		private System.Windows.Forms.TextBox txtConteudo;
+		private System.Windows.Forms.ComboBox disciplina;
+		private System.Windows.Forms.Button searchBT;
+		private System.Windows.Forms.SplitContainer splitContainer3;
+		private System.Windows.Forms.Label materiaNova;
+		private System.Windows.Forms.ComboBox cbClasse;
 	}
 }

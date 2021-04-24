@@ -8,8 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using Xceed.Words.NET;
 namespace Explicador
+	
 {
 	public partial class Login : Form
 	{
@@ -30,5 +31,6 @@ namespace Explicador
 			Mform.Show();
 			this.Hide();
 		}
+		
 	}
 }
