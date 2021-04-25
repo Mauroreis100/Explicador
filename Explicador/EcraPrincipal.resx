@@ -117,6 +117,100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="axAcroPDF1.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="axAcroPDF1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 59</value>
+  </data>
+  <data name="axAcroPDF1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAIQAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAAwAAAAADgAA2BMAANgTAAAL
+</value>
+  </data>
+  <data name="axAcroPDF1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>573, 399</value>
+  </data>
+  <data name="axAcroPDF1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;axAcroPDF1.Name" xml:space="preserve">
+    <value>axAcroPDF1</value>
+  </data>
+  <data name="&gt;&gt;axAcroPDF1.Type" xml:space="preserve">
+    <value>AxAcroPDFLib.AxAcroPDF, AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;axAcroPDF1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;axAcroPDF1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbDisciplina.Items" xml:space="preserve">
+    <value>1ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items1" xml:space="preserve">
+    <value>2ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items2" xml:space="preserve">
+    <value>3ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items3" xml:space="preserve">
+    <value>4ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items4" xml:space="preserve">
+    <value>5ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items5" xml:space="preserve">
+    <value>6ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items6" xml:space="preserve">
+    <value>7ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items7" xml:space="preserve">
+    <value>8ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items8" xml:space="preserve">
+    <value>9ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items9" xml:space="preserve">
+    <value>10ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items10" xml:space="preserve">
+    <value>11ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Items11" xml:space="preserve">
+    <value>12ª Classe</value>
+  </data>
+  <data name="cbDisciplina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 29</value>
+  </data>
+  <data name="cbDisciplina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="cbDisciplina.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cbDisciplina.Text" xml:space="preserve">
+    <value>Disciplina</value>
+  </data>
+  <data name="&gt;&gt;cbDisciplina.Name" xml:space="preserve">
+    <value>cbDisciplina</value>
+  </data>
+  <data name="&gt;&gt;cbDisciplina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbDisciplina.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbDisciplina.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="cbClasse.Items" xml:space="preserve">
     <value>1ª Classe</value>
   </data>
@@ -153,14 +247,12 @@
   <data name="cbClasse.Items11" xml:space="preserve">
     <value>12ª Classe</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="cbClasse.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 29</value>
   </data>
   <data name="cbClasse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 21</value>
+    <value>117, 21</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="cbClasse.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
@@ -177,7 +269,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;cbClasse.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="searchBT.Location" type="System.Drawing.Point, System.Drawing">
     <value>468, 27</value>
@@ -201,75 +293,12 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;searchBT.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="disciplina.Items" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="disciplina.Items1" xml:space="preserve">
-    <value>Estat</value>
-  </data>
-  <data name="disciplina.Items2" xml:space="preserve">
-    <value>Carros dos Estudantes</value>
-  </data>
-  <data name="disciplina.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 29</value>
-  </data>
-  <data name="disciplina.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 21</value>
-  </data>
-  <data name="disciplina.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="disciplina.Text" xml:space="preserve">
-    <value>Matéria</value>
-  </data>
-  <data name="&gt;&gt;disciplina.Name" xml:space="preserve">
-    <value>disciplina</value>
-  </data>
-  <data name="&gt;&gt;disciplina.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;disciplina.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;disciplina.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="txtConteudo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 9.75pt</value>
-  </data>
-  <data name="txtConteudo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 69</value>
-  </data>
-  <data name="txtConteudo.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txtConteudo.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Both</value>
-  </data>
-  <data name="txtConteudo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>583, 389</value>
-  </data>
-  <data name="txtConteudo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txtConteudo.Name" xml:space="preserve">
-    <value>txtConteudo</value>
-  </data>
-  <data name="&gt;&gt;txtConteudo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtConteudo.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;txtConteudo.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>202, -12</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
@@ -290,6 +319,45 @@
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9pt</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 437</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>MENU PRINCIPAL</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -535,33 +603,6 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 9pt</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 437</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>MENU PRINCIPAL</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

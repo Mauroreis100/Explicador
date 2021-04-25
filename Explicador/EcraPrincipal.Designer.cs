@@ -33,8 +33,6 @@ namespace Explicador
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.cbClasse = new System.Windows.Forms.ComboBox();
 			this.searchBT = new System.Windows.Forms.Button();
-			this.disciplina = new System.Windows.Forms.ComboBox();
-			this.txtConteudo = new System.Windows.Forms.TextBox();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
 			this.lbVoltar = new System.Windows.Forms.Label();
@@ -42,6 +40,8 @@ namespace Explicador
 			this.materiasLB = new System.Windows.Forms.Label();
 			this.splitContainer3 = new System.Windows.Forms.SplitContainer();
 			this.materiaNova = new System.Windows.Forms.Label();
+			this.cbDisciplina = new System.Windows.Forms.ComboBox();
+			this.axAcroPDF1 = new AxAcroPDFLib.AxAcroPDF();
 			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -55,15 +55,16 @@ namespace Explicador
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
 			this.splitContainer3.Panel1.SuspendLayout();
 			this.splitContainer3.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// groupBox1
 			// 
 			this.groupBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+			this.groupBox1.Controls.Add(this.axAcroPDF1);
+			this.groupBox1.Controls.Add(this.cbDisciplina);
 			this.groupBox1.Controls.Add(this.cbClasse);
 			this.groupBox1.Controls.Add(this.searchBT);
-			this.groupBox1.Controls.Add(this.disciplina);
-			this.groupBox1.Controls.Add(this.txtConteudo);
 			this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			resources.ApplyResources(this.groupBox1, "groupBox1");
 			this.groupBox1.Name = "groupBox1";
@@ -96,23 +97,6 @@ namespace Explicador
 			this.searchBT.Name = "searchBT";
 			this.searchBT.UseVisualStyleBackColor = true;
 			this.searchBT.Click += new System.EventHandler(this.searchBT_Click);
-			// 
-			// disciplina
-			// 
-			this.disciplina.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-			this.disciplina.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-			this.disciplina.FormattingEnabled = true;
-			this.disciplina.Items.AddRange(new object[] {
-            resources.GetString("disciplina.Items"),
-            resources.GetString("disciplina.Items1"),
-            resources.GetString("disciplina.Items2")});
-			resources.ApplyResources(this.disciplina, "disciplina");
-			this.disciplina.Name = "disciplina";
-			// 
-			// txtConteudo
-			// 
-			resources.ApplyResources(this.txtConteudo, "txtConteudo");
-			this.txtConteudo.Name = "txtConteudo";
 			// 
 			// groupBox2
 			// 
@@ -177,6 +161,33 @@ namespace Explicador
 			this.materiaNova.Name = "materiaNova";
 			this.materiaNova.Click += new System.EventHandler(this.materiaNova_Click);
 			// 
+			// cbDisciplina
+			// 
+			this.cbDisciplina.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+			this.cbDisciplina.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+			this.cbDisciplina.FormattingEnabled = true;
+			this.cbDisciplina.Items.AddRange(new object[] {
+            resources.GetString("cbDisciplina.Items"),
+            resources.GetString("cbDisciplina.Items1"),
+            resources.GetString("cbDisciplina.Items2"),
+            resources.GetString("cbDisciplina.Items3"),
+            resources.GetString("cbDisciplina.Items4"),
+            resources.GetString("cbDisciplina.Items5"),
+            resources.GetString("cbDisciplina.Items6"),
+            resources.GetString("cbDisciplina.Items7"),
+            resources.GetString("cbDisciplina.Items8"),
+            resources.GetString("cbDisciplina.Items9"),
+            resources.GetString("cbDisciplina.Items10"),
+            resources.GetString("cbDisciplina.Items11")});
+			resources.ApplyResources(this.cbDisciplina, "cbDisciplina");
+			this.cbDisciplina.Name = "cbDisciplina";
+			// 
+			// axAcroPDF1
+			// 
+			resources.ApplyResources(this.axAcroPDF1, "axAcroPDF1");
+			this.axAcroPDF1.Name = "axAcroPDF1";
+			this.axAcroPDF1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF1.OcxState")));
+			// 
 			// ecraPrincipal
 			// 
 			resources.ApplyResources(this, "$this");
@@ -191,7 +202,6 @@ namespace Explicador
 			this.Name = "ecraPrincipal";
 			this.Load += new System.EventHandler(this.ecraPrincipal_Load);
 			this.groupBox1.ResumeLayout(false);
-			this.groupBox1.PerformLayout();
 			this.groupBox2.ResumeLayout(false);
 			this.splitContainer1.Panel1.ResumeLayout(false);
 			this.splitContainer1.Panel1.PerformLayout();
@@ -207,6 +217,7 @@ namespace Explicador
 			this.splitContainer3.Panel1.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
 			this.splitContainer3.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).EndInit();
 			this.ResumeLayout(false);
 
 		}
@@ -219,11 +230,11 @@ namespace Explicador
 		private System.Windows.Forms.Label lbVoltar;
 		private System.Windows.Forms.SplitContainer splitContainer2;
 		private System.Windows.Forms.Label materiasLB;
-		private System.Windows.Forms.TextBox txtConteudo;
-		private System.Windows.Forms.ComboBox disciplina;
 		private System.Windows.Forms.Button searchBT;
 		private System.Windows.Forms.SplitContainer splitContainer3;
 		private System.Windows.Forms.Label materiaNova;
 		private System.Windows.Forms.ComboBox cbClasse;
+		private System.Windows.Forms.ComboBox cbDisciplina;
+		private AxAcroPDFLib.AxAcroPDF axAcroPDF1;
 	}
 }

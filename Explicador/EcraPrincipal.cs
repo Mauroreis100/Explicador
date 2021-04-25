@@ -84,8 +84,8 @@ namespace Explicador
 		private void searchBT_Click(object sender, EventArgs e)
 		{
 			string classe = cbClasse.SelectedItem.ToString();
-			string materia = disciplina.SelectedItem.ToString() + "";
-			StreamReader dr = new StreamReader("C:\\Users\\mauro\\Documents\\"+classe+"\\"+materia+".doc");
+			string materia = cbDisciplina.SelectedItem.ToString() + "";
+			StreamReader dr = new StreamReader("C:\\Users\\mauro\\Documents\\"+classe+"\\"+materia+".pdf");
 			string s;
 			s = dr.ReadToEnd();
 			txtConteudo.Text = s;
