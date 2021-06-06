@@ -152,40 +152,10 @@
     <value>0</value>
   </data>
   <data name="cbDisciplina.Items" xml:space="preserve">
-    <value>1ª Classe</value>
+    <value>Matematica</value>
   </data>
   <data name="cbDisciplina.Items1" xml:space="preserve">
-    <value>2ª Classe</value>
-  </data>
-  <data name="cbDisciplina.Items2" xml:space="preserve">
-    <value>3ª Classe</value>
-  </data>
-  <data name="cbDisciplina.Items3" xml:space="preserve">
-    <value>4ª Classe</value>
-  </data>
-  <data name="cbDisciplina.Items4" xml:space="preserve">
-    <value>5ª Classe</value>
-  </data>
-  <data name="cbDisciplina.Items5" xml:space="preserve">
-    <value>6ª Classe</value>
-  </data>
-  <data name="cbDisciplina.Items6" xml:space="preserve">
-    <value>7ª Classe</value>
-  </data>
-  <data name="cbDisciplina.Items7" xml:space="preserve">
-    <value>8ª Classe</value>
-  </data>
-  <data name="cbDisciplina.Items8" xml:space="preserve">
-    <value>9ª Classe</value>
-  </data>
-  <data name="cbDisciplina.Items9" xml:space="preserve">
-    <value>10ª Classe</value>
-  </data>
-  <data name="cbDisciplina.Items10" xml:space="preserve">
-    <value>11ª Classe</value>
-  </data>
-  <data name="cbDisciplina.Items11" xml:space="preserve">
-    <value>12ª Classe</value>
+    <value>Portugues</value>
   </data>
   <data name="cbDisciplina.Location" type="System.Drawing.Point, System.Drawing">
     <value>327, 29</value>
@@ -319,45 +289,6 @@
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 9pt</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 437</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>MENU PRINCIPAL</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -603,6 +534,33 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9pt</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 437</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>MENU PRINCIPAL</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

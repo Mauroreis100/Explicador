@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.IO;
-using System.Data.SqlClient;
+
 using System.Data;
 using System.Data.OleDb;
 
@@ -56,39 +56,34 @@ namespace Explicador
 			textBox1.AutoCompleteCustomSource = DataCollection; */
 		}
 
-		private async void materiasLB_Click(object sender, EventArgs e)
-		{
-			try
-			{
-				//Open file dialog, allows you to select a txt file
-				using 
-					(OpenFileDialog ofd = new OpenFileDialog() { Filter = "All Files (*.*)|*.*", Multiselect = false, ValidateNames = true })
-				{
-					if (ofd.ShowDialog() == DialogResult.OK)
-					{
-						using (StreamReader sr = new StreamReader(ofd.FileName))
-						{
-							txtConteudo.Text = await sr.ReadToEndAsync();
-						}
-					}
-				}
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-			}
-
-
-		}
-
+		
+			
 		private void searchBT_Click(object sender, EventArgs e)
 		{
 			string classe = cbClasse.SelectedItem.ToString();
 			string materia = cbDisciplina.SelectedItem.ToString() + "";
-			StreamReader dr = new StreamReader("C:\\Users\\mauro\\Documents\\"+classe+"\\"+materia+".pdf");
-			string s;
-			s = dr.ReadToEnd();
-			txtConteudo.Text = s;
+		
+			
+			Process myProcess = new Process();
+
+			try
+			{
+				myProcess.StartInfo.UseShellExecute = false;
+				// You can start any process, HelloWorld is a do-nothing example.
+				myProcess.StartInfo.FileName = "C:\\Users\\mauro\\Documents\\MATÉRIAS" + classe + "\\" + materia + ".pdf";
+				myProcess.StartInfo.CreateNoWindow = true;
+				myProcess.Start();
+				// This code assumes the process you are starting will terminate itself. 
+				// Given that is is started without a window so you cannot terminate it 
+				// on the desktop, it must terminate itself or you can do it programmatically
+				// from this application using the Kill method.
+			}
+			catch (Exception c) 
+			{
+				Console.WriteLine(c.Message);
+			}
+
+
 		}
 
 		private void materiaNova_Click(object sender, EventArgs e)
