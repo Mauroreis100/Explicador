@@ -60,7 +60,20 @@ namespace Explicador
 			
 		private void searchBT_Click(object sender, EventArgs e)
 		{
+
+			try { 
 			string classe = cbClasse.SelectedItem.ToString();
+		string materia = cbDisciplina.SelectedItem.ToString() + "";
+			string lerficheirotodo = "C:\\Users\\mauro\\Documents\\MATÉRIAS\\"+classe+"\\"+ materia +".pdf";
+				// "C:\\Users\\mauro\\Documents\\MATÉRIAS" + classe + "\\" + materia + ".pdf";
+				axAcroPDF1.src=lerficheirotodo;
+				
+			}
+			catch (Exception c)
+			{
+				Console.WriteLine(c.Message);
+			}
+			/*string classe = cbClasse.SelectedItem.ToString();
 			string materia = cbDisciplina.SelectedItem.ToString() + "";
 		
 			
@@ -81,7 +94,7 @@ namespace Explicador
 			catch (Exception c) 
 			{
 				Console.WriteLine(c.Message);
-			}
+			}*/
 
 
 		}

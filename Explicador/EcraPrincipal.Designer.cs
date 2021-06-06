@@ -161,7 +161,6 @@ namespace Explicador
 			resources.ApplyResources(this.materiasLB, "materiasLB");
 			this.materiasLB.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.materiasLB.Name = "materiasLB";
-	
 			// 
 			// splitContainer3
 			// 
